@@ -1,2 +1,2 @@
-// Import stylesheets
-import './style.css';
+
+import './ukol1.js';
