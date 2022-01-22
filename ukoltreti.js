@@ -12,9 +12,10 @@ Vstup:
 let cislo = 1
 let soucet = 0
 while (cislo !== 0)
-{ cislo = Number( prompt('Zadejte cislo:'));
+{ 
  soucet = soucet+cislo
-  console.log('Akumulovany soucet:'+ soucet);
+ cislo = Number( prompt('Zadejte cislo:'));
+ console.log('Akumulovany soucet:'+ soucet);
 }
 
 
