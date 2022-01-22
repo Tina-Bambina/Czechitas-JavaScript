@@ -7,7 +7,7 @@ Výstup: 6
 Vstup: 11
 Výstup: 17
 Vstup: 
-
+*/
 
 let cislo = Number( prompt('Zadejte cislo:'));
 let soucet = 0
@@ -17,7 +17,7 @@ while (cislo !== 0)
  cislo = Number( prompt('Zadejte cislo:'));
  console.log('Dosavadni soucet:'+ soucet);}
 console.log('Akumulovany soucet:'+ soucet);
-*/
+
 
 
 /*NEBO TAKTO:
@@ -49,7 +49,7 @@ console.log(ic);
       console.log(i);
     }
   - poznamka - pripomenout definici casti for cyklu
-*/
+
 
 let i=12
 let j=12**3
@@ -58,3 +58,4 @@ while(i=12 +1)
   console.log(i)
   i=i*2
 }
+*/
