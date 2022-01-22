@@ -1,1 +1,1 @@
-console.log('ahoj');
+console.log('ahoj, toto je prvni pozdrav.');

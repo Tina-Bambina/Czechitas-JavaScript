@@ -1,1 +1,1 @@
-console.log('ahoj tady ukol dva');
+console.log('ahoj, tady se hlasi ukol dva');
