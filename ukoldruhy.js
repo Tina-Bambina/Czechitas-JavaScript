@@ -26,33 +26,34 @@ console.log('Vase jmeno je ' + jmeno + ' je vam ' + vek + ' a tak mate pravo rid
 2)  Nechte uživatele zadat 3 čísla a určete největší z nich - výsledek vypište do konzole ve formátu "Největší číslo je A: 37".​
 } */
 
-/*
 
-//lehceji
+
+//lehceji, ale ne zcela spravne
 let A = Number( prompt('Zadejte cislo A:'));
 let B = Number( prompt('Zadejte cislo B:'));;
 let C = Number( prompt('Zadejte cislo C:'));
 
 console.log("Nejvyssi z Vami vlozenych cisel je:" + Math.max(A,B,C));
-*/
+
 
 
 
 //sloziteji:
-let A = Number( prompt('Zadejte cislo A:'));
-let B = Number( prompt('Zadejte cislo B:'));;
-let C = Number( prompt('Zadejte cislo C:'));
+let D = Number( prompt('Zadejte cislo D:'));
+let E = Number( prompt('Zadejte cislo E:'));;
+let F = Number( prompt('Zadejte cislo F:'));
 
-if (A>B && A>C)
+if (D>E && D>F)
 {
-  console.log("Největší číslo je A: " + A)
-}else if (B>A && B>C)
+  console.log("Největší číslo je D: " + D)
+}else if (E>D && E>F)
 {
-  console.log("Největší číslo je B: " + B)
-}
-else
+  console.log("Největší číslo je E: " + E)
+}else if (F>D && E<F)
 {
-console.log("Největší číslo je C: " + C)
+  console.log("Největší číslo je F: " + F)
+}else{
+console.log("Nektera cisla se rovnaji, nelze urcit nejvyssi.")
 }
 
 
