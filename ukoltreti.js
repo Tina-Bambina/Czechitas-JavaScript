@@ -13,11 +13,10 @@ let cislo = Number( prompt('Zadejte cislo:'));
 let soucet = 0
 while (cislo !== 0)
 { 
- soucet = soucet+cislo
+ soucet += cislo    //nebo soucet = soucet+cislo
  cislo = Number( prompt('Zadejte cislo:'));
- console.log('Akumulovany soucet:'+ soucet);
-}
-
+ console.log('Dosavadni soucet:'+ soucet);}
+console.log('Akumulovany soucet:'+ soucet);
 
 
 /*
@@ -36,7 +35,7 @@ while (cislo !== 0)
       console.log(i);
     }
   - poznamka - pripomenout definici casti for cyklu
-*/
+
 
 let i=12
 let j=12**3
@@ -45,3 +44,4 @@ while(i=12 + j)
   console.log(i)
   i=i*2
 }
+*/
