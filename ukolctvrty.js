@@ -16,12 +16,18 @@ function vypisMatOperace(x, y)
   console.log('podil: ' + podil);
 }
 
+function spoctiObsahObdelniku(x,y)
+{
+let obsah = x * y
+console.log('Obsah obdelniku o stranach x,y je ' + obsah + 'cm')
+}
 
 
-let x = Number( prompt('Zadejte cislo:'));
-let y = Number( prompt('Zadejte cislo:'));
+let x = Number( prompt('Zadej X:'));
+let y = Number( prompt('Zadej Y:'));
+
 vypisMatOperace(x,y);
-
+spoctiObsahObdelniku(x,y);
 
 
 /*
