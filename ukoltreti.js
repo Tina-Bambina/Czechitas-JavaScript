@@ -22,8 +22,13 @@ while (cislo !== 0)
 
 /*
   2) Nechte uzivatele zadat 2 cisla, ktere znaci dolni a horni mez na ciselne ose celych cisel - vcetne, pokud tedy zada 3 a 7, uvazujme cisla 3, 4, 5, 6, 7. Vypište pomocí FOR cyklu pouze sudá čísla.
-*/
 
+
+  ----
+  for (let i = 0; i<10, i ++)
+  {console.log(i)}
+
+*/
 
 /*
   3) Prepiste tento for cyklus pomoci While cyklu
@@ -32,3 +37,11 @@ while (cislo !== 0)
     }
   - poznamka - pripomenout definici casti for cyklu
 */
+
+let i=12
+let j=12**3
+while(i=12 + j)
+{
+  console.log(i)
+  i=i*2
+}
