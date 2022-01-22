@@ -9,7 +9,7 @@ Výstup: 17
 Vstup: 
 */
 
-let cislo = 1
+let cislo = Number( prompt('Zadejte cislo:'));
 let soucet = 0
 while (cislo !== 0)
 { 
