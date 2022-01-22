@@ -45,13 +45,13 @@ let C = Number( prompt('Zadejte cislo C:'));
 
 if (A>B && A>C)
 {
-  console.log("Nejvyssi z Vami vlozenych cisel je cislo A: " + A)
+  console.log("Největší číslo je A: " + A)
 }else if (B>A && B>C)
 {
-  console.log("Nejvyssi z Vami vlozenych cisel je cislo B: " + B)
+  console.log("Největší číslo je B: " + B)
 }
 else 
-console.log("Nejvyssi z Vami vlozenych cisel je cislo C: " + C)
+console.log("Největší číslo je C: " + C)
 
 
 
