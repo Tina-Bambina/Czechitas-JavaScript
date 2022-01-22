@@ -36,8 +36,6 @@ let C = Number( prompt('Zadejte cislo C:'));
 console.log("Nejvyssi z Vami vlozenych cisel je:" + Math.max(A,B,C));
 
 
-
-
 //sloziteji:
 let D = Number( prompt('Zadejte cislo D:'));
 let E = Number( prompt('Zadejte cislo E:'));;
@@ -57,8 +55,13 @@ console.log("Nektera cisla se rovnaji, nelze urcit nejvyssi.")
 }
 
 
+/*
+//chytre: - uz se mi to vylucuje
+if (a>b) {if (a>c)...a}
+else{if(b>c) ... b}
+else (c)
 
-
+*/
 
 
 
