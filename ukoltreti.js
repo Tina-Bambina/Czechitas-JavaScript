@@ -9,16 +9,13 @@ Výstup: 17
 Vstup: 
 */
 
-
-let num = Number( prompt('Zadejte cislo:'));
-
-while (num!=0)
-{
-  console.log(num+=num);}
-
-
-  console.log('pozrrav4');
-
+let cislo = 1
+let soucet = 0
+while (cislo !== 0)
+{ cislo = Number( prompt('Zadejte cislo:'));
+ soucet = soucet+cislo
+  console.log('Akumulovany soucet:'+ soucet);
+}
 
 
 

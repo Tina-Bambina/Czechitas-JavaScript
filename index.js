@@ -6,4 +6,4 @@ import './ukolprvni.js';
 import './ukoldruhy.js';
 
 */
-import './ukoltreti.js';
+//import './ukoltreti.js';
