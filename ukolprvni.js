@@ -12,5 +12,6 @@ let vek = 28;
 let vaha = 51; //v kg
 let vyska = 1.55   //v m
 let bmi = vaha/(vyska*vyska)
+let zaokrBmi = Math.round(bmi*100)/100;
 
-console.log('Jmenuji se ' + jmeno + ', merim ' + vyska + ' m, vazim '+ vaha + ' kg, a moje BMI je ' + bmi + '.');
+console.log('Jmenuji se ' + jmeno + ', merim ' + vyska + ' m, vazim '+ vaha + ' kg, a moje BMI je ' + zaokrBmi + '.');
