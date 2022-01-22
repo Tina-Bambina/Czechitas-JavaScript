@@ -19,6 +19,20 @@ while (cislo !== 0)
 console.log('Akumulovany soucet:'+ soucet);
 
 
+
+/*nebo:
+
+let i = Number(prompt("Ahoj, zadej cele cislo.")); // input
+let ic = 0;
+while (i !== 0) { //dokud kumulativni input je rozdilny od input
+   ic +=i;
+   i = Number(prompt("Ahoj, zadej cele cislo.")); // input
+} //az nebude platit podminka vrat 'hotovo' 
+console.log(ic);
+
+
+*/
+
 /*
   2) Nechte uzivatele zadat 2 cisla, ktere znaci dolni a horni mez na ciselne ose celych cisel - vcetne, pokud tedy zada 3 a 7, uvazujme cisla 3, 4, 5, 6, 7. Vypište pomocí FOR cyklu pouze sudá čísla.
 
